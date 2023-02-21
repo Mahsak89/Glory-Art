@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Shadows+Into+Light&display=swap');
+
+/** Structure setting **/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FFF9EA;
+    color: #0E150E;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
