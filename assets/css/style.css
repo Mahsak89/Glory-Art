@@ -15,3 +15,61 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
 }
+
+.main-container {
+    width: 100%;
+    margin: auto;
+}
+
+/* Navigation bar, navigation links and logo */
+
+#nav-bar {
+    background-color: #FFF9EA;
+    height: 68px;
+}
+
+.main-header {
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    position: -webkit-sticky; 
+    position: sticky; 
+}
+
+.logo {
+    font-family: 'Shadows Into Light', sans-serif;
+    float: left;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.logo a {
+    color: #00473c;
+    text-decoration: none;
+}
+.nav-row ul {
+    list-style-type: none;
+    text-align: right;
+    margin: auto;
+    padding: 20px 0 0;
+}
+
+.nav-row ul li {
+    float: none;
+    display: inline-block;
+}
+
+.nav-row ul li a {
+    color: #0E150E;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 30px;
+}
+
+.nav-row a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.225rem;
+}
