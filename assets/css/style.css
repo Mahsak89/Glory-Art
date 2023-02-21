@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #FFF9EA;
+    
     color: #0E150E;
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
@@ -72,4 +72,59 @@ body {
 .nav-row a:hover {
     text-decoration: underline;
     text-underline-offset: 0.225rem;
+}
+
+#hero-img{
+    background: url(../image/art-gallery.jpg) center center no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#cover-text {
+    background-color: rgba(202, 240, 234, .4);
+    color: #0E150E;
+    font-size: 170%;
+    text-transform: uppercase;
+    text-align: center;
+    height: 250px;
+    max-width: 400px;
+    border-radius: 15px;
+    float: left;
+    margin: 0 75px;
+    position: static;
+}
+
+#cover-text h2 {
+    padding: 20px 25px;
+}
+
+/* Cover button hover effect */
+
+#cover-button {
+    background-color: #0E150E;
+    height: 40px;
+    max-width: 230px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+#cover-button h3 {
+    font-size: 70%;
+    letter-spacing: 2px;
+    padding: 5px 4.5px;
+    color: #FFF9EA;
+}
+
+#cover-button a {
+    color: #FFF9EA;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#cover-button a:hover {
+    background-color: #FFF9EA;
+    color: #0E150E;
+    border-radius: 10px;
 }
